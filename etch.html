@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="etchcss.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <h1> Welcome to Etch a Sketch</h1>
+    <p>Click and drag your cursor to draw</p>
+</head>
+
+
+<body>
+    <div id="buttons">
+        <a id="clear" onclick="clearGrid()">
+            CLEAR
+        </a>
+        <a id="newGrid" onclick="newGrid()">
+            NEW GRID
+        </a>
+        <a id="randColor" onclick="randColor()">
+            RANDOM COLORS
+        </a>
+        <a id="resetColor" onclick="resetColor()">
+            RESET COLOR
+        </a>
+    </div>
+    <div id="container">
+        <!-- This is where the grid goes -->
+    </div>
+    <script src="etchjava.js"></script>
+</body>
+
+</html>
