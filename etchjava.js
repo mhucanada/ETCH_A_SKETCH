@@ -76,6 +76,7 @@ function clearGrid() {
     for (i = 0; i < squares.length; i++) {
         squares[i].style.backgroundColor = 'rgba(0,0,0,0)';
     }
+
 }
 
 function newGrid() {
